@@ -14,7 +14,7 @@ public class W2_6circularlyShifted {
 		String t=scanner.nextLine();
 		boolean flag=false;
 		
-		////////////////判断两个字符串是否是循环逆转的
+		////////////////to judge if two strings are circularly shifted.
 		if((s.length()==t.length())&&s.concat(s).indexOf(t)>=0)
 			System.out.println("the strings are circularly shifted!");
 		else
